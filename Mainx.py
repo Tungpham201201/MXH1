@@ -14,7 +14,7 @@ from rich.text import Text
 from rich.style import Style
 from cpkrst import CPMEwan
 
-__CHANNEL_USERNAME__ = "Roasted2001"
+__CHANNEL_USERNAME__ = "Facebook: Bui Xuan Thanh"
 
 def signal_handler(sig, frame):
     print("\n Bye Bye...")
@@ -76,7 +76,7 @@ def load_player_data(cpm):
 def load_key_data(cpm):
     data = cpm.get_key_data()
     console.print("[bold yellow]========《 Tất Cả Các Hack 》========[/bold yellow]")
-    console.print(f"[bold green]Credits:[/bold green] [bold yellow]{ (data.get('coins') if not data.get('is_unlimited') else 'ROASTED_AMONYMOUS') }[/bold yellow].", end="\n\n")
+    console.print(f"[bold green]Credits:[/bold green] [bold yellow]{ (data.get('coins') if not data.get('is_unlimited') else 'unlimited') }[/bold yellow].", end="\n\n")
 
 def prompt_valid_value(content, tag, password=False):
     while True:
@@ -165,7 +165,7 @@ if __name__ == "__main__":
             console.print("[bold yellow](0) :[/bold yellow][bold yellow] Đăng xuất tài khoản.[/bold yellow]", end="\n\n")
             service = IntPrompt.ask(f"[bold #00dcff] 🛠 Chọn một dịch vụ [/bold #00dcff][bold red][1 => {choices[-1]} hoặc 0][/bold red]", choices=choices, show_choices=False)
             if service == 0: # Exit
-                console.print(f"[bold #00dcff]Cảm ơn bạn đã sử dụng tool của tôi[/bold #00dcff][bold yellow]《 Telegram: @{__CHANNEL_USERNAME__} 》[/bold yellow]")
+                console.print(f"[bold #00dcff]Cảm ơn bạn đã sử dụng tool của tôi[/bold #00dcff][bold yellow]《 {__CHANNEL_USERNAME__} 》[/bold yellow]")
             elif service == 1: # Increase Money
                 console.print("[bold yellow]⚠ Nhập số tiền bạn muốn ⚠.[/bold yellow]")
                 amount = IntPrompt.ask("[bold yellow]Số lượng.[/bold yellow]")
@@ -196,7 +196,7 @@ if __name__ == "__main__":
                         console.print("[bold green]Đã thành công[/bold green]")
                         console.print("[bold green]==================================[/bold green]")
                         answ = Prompt.ask("[bold yellow][?] Bạn có muốn thoát không ?[/bold yellow]", choices=["y", "n"], default="n")
-                        if answ == "y": console.print(f"[bold blue][!] Cảm ơn bạn đã sử dụng tool của tôi[/bold blue][bold yellow]《 Telegram: @{__CHANNEL_USERNAME__} 》[/bold yellow]")
+                        if answ == "y": console.print(f"[bold blue][!] Cảm ơn bạn đã sử dụng tool của tôi[/bold blue][bold yellow]《 {__CHANNEL_USERNAME__} 》[/bold yellow]")
                         else: continue
                     else:
                         console.print("[bold red]⚠ Thất bại ⚠[/bold red]")
@@ -217,7 +217,7 @@ if __name__ == "__main__":
                     console.print("[bold green]Đã thành công.[/bold green]")
                     console.print("[bold green]==================================[/bold green]")
                     answ = Prompt.ask("[bold yellow][?] Bạn có muốn thoát không ?[/bold yellow]", choices=["y", "n"], default="n")
-                    if answ == "y": console.print(f"[bold blue][!] Cảm ơn bạn đã sử dụng tool của tôi[/bold blue][bold yellow]《 Telegram: @{__CHANNEL_USERNAME__} 》[/bold yellow]")
+                    if answ == "y": console.print(f"[bold blue][!] Cảm ơn bạn đã sử dụng tool của tôi[/bold blue][bold yellow]《 {__CHANNEL_USERNAME__} 》[/bold yellow]")
                     else: continue
                 else:
                     console.print("[bold red]⚠ Thất bại ⚠[/bold red]")
@@ -233,7 +233,7 @@ if __name__ == "__main__":
                         console.print("[bold green]Đã thành công.[/bold green]")
                         console.print("[bold green]==================================[/bold green]")
                         answ = Prompt.ask("[bold yellow][?] Bạn có muốn thoát không ?[/bold yellow]", choices=["y", "n"], default="n")
-                        if answ == "y": console.print(f"[bold blue][!] Cảm ơn bạn đã sử dụng tool của tôi[/bold blue][bold yellow]《 Telegram: @{__CHANNEL_USERNAME__} 》[/bold yellow]")
+                        if answ == "y": console.print(f"[bold blue][!] Cảm ơn bạn đã sử dụng tool của tôi[/bold blue][bold yellow]《 {__CHANNEL_USERNAME__} 》[/bold yellow]")
                         else: continue
                     else:
                         console.print("[bold red]⚠ Thất bại ⚠[/bold red]")
@@ -254,7 +254,7 @@ if __name__ == "__main__":
                         console.print("[bold green]Đã thành công.[/bold green]")
                         console.print("[bold green]==================================[/bold green]")
                         answ = Prompt.ask("[bold yellow][?] Bạn có muốn thoát không ?[/bold yellow]", choices=["y", "n"], default="n")
-                        if answ == "y": console.print(f"[bold blue][!] Cảm ơn bạn đã sử dụng tool của tôi[/bold blue][bold yellow]《 Telegram: @{__CHANNEL_USERNAME__} 》[/bold yellow]")
+                        if answ == "y": console.print(f"[bold blue][!] Cảm ơn bạn đã sử dụng tool của tôi[/bold blue][bold yellow]《 {__CHANNEL_USERNAME__} 》[/bold yellow]")
                         else: continue
                     else:
                         console.print("[bold red]⚠ Thất bại ⚠[/bold red]")
@@ -275,7 +275,7 @@ if __name__ == "__main__":
                         console.print("[bold green]Đã thành công.[/bold green]")
                         console.print("[bold green]==================================[/bold green]")
                         answ = Prompt.ask("[bold yellow][?] Bạn có muốn thoát không ?[/bold yellow]", choices=["y", "n"], default="n")
-                        if answ == "y": console.print(f"[bold blue][!] Cảm ơn bạn đã sử dụng tool của tôi[/bold blue][bold yellow]《 Telegram: @{__CHANNEL_USERNAME__} 》[/bold yellow]")
+                        if answ == "y": console.print(f"[bold blue][!] Cảm ơn bạn đã sử dụng tool của tôi[/bold blue][bold yellow]《 {__CHANNEL_USERNAME__} 》[/bold yellow]")
                         else: continue
                     else:
                         console.print("[bold red]⚠ Thất bại ⚠[/bold red]")
@@ -293,7 +293,7 @@ if __name__ == "__main__":
                     console.print("[bold green]Đã thành công.[/bold green]")
                     console.print("[bold green]==================================[/bold green]")
                     answ = Prompt.ask("[bold yellow][?] Bạn có muốn thoát không ?[/bold yellow]", choices=["y", "n"], default="n")
-                    if answ == "y": console.print(f"[bold #00dcff][!] Cảm ơn bạn đã sử dụng tool của tôi[/bold #00dcff]: [bold yellow]《 Telegram: @{__CHANNEL_USERNAME__} 》[/bold yellow]")
+                    if answ == "y": console.print(f"[bold #00dcff][!] Cảm ơn bạn đã sử dụng tool của tôi[/bold #00dcff]: [bold yellow]《 {__CHANNEL_USERNAME__} 》[/bold yellow]")
                     else: continue
                 else:
                     console.print("[bold red]⚠ Thất bại ⚠[/bold red]")
@@ -307,7 +307,7 @@ if __name__ == "__main__":
                     cpm.delete()
                     console.print("[bold #00dcff][%] Đang xóa tài khoản của bạn[/bold #00dcff]: [bold green]Đã thành công.[/bold green]")
                     console.print("==================================")
-                    console.print(f"[bold #00dcff][!] Cảm ơn bạn đã sử dụng tool của tôi[/bold #00dcff][bold yellow]《 Telegram: @{__CHANNEL_USERNAME__} 》[/bold blue]")
+                    console.print(f"[bold #00dcff][!] Cảm ơn bạn đã sử dụng tool của tôi[/bold #00dcff][bold yellow]《 {__CHANNEL_USERNAME__} 》[/bold blue]")
                 else: continue
             elif service == 9: # Account Register
                 console.print("[bold yellow][!] Đăng ký tài khoản mới.[/bold yellow]")
@@ -338,7 +338,7 @@ if __name__ == "__main__":
                     console.print("[bold green]Đã thành công[/bold green]")
                     console.print("[bold green]==================================[/bold green]")
                     answ = Prompt.ask("[bold yellow][?] Bạn có muốn thoát không ?[/bold yellow]", choices=["y", "n"], default="n")
-                    if answ == "y": console.print(f"[bold #00dcff][!] Cảm ơn bạn đã sử dụng tool của tôi[/bold #00dcff][bold yellow]《 Telegram: @{__CHANNEL_USERNAME__} 》[/bold yellow]")
+                    if answ == "y": console.print(f"[bold #00dcff][!] Cảm ơn bạn đã sử dụng tool của tôi[/bold #00dcff][bold yellow]《 {__CHANNEL_USERNAME__} 》[/bold yellow]")
                     else: continue
                 else:
                     console.print("[bold red]⚠ Thất bại ⚠[/bold red]")
@@ -352,7 +352,7 @@ if __name__ == "__main__":
                     console.print("[bold green]Đã thành công.[/bold green]")
                     console.print("[bold green]==================================[/bold green]")
                     answ = Prompt.ask("[bold yellow][?] Bạn có muốn thoát không ?[/bold yellow]", choices=["y", "n"], default="n")
-                    if answ == "y": console.print(f"[bold blue][!] Cảm ơn bạn đã sử dụng tool của tôi[/bold blue][bold yellow]《 Telegram: @{__CHANNEL_USERNAME__} 》[/bold blue]")
+                    if answ == "y": console.print(f"[bold blue][!] Cảm ơn bạn đã sử dụng tool của tôi[/bold blue][bold yellow]《 {__CHANNEL_USERNAME__} 》[/bold blue]")
                     else: continue
                 else:
                     console.print("[bold red]⚠ Thất bại ⚠[/bold red]")
@@ -365,7 +365,7 @@ if __name__ == "__main__":
                     console.print("[bold green]Đã thành công.[/bold green]")
                     console.print("[bold green]==================================[/bold green]")
                     answ = Prompt.ask("[bold yellow][?] Bạn có muốn thoát không ?[/bold yellow]", choices=["y", "n"], default="n")
-                    if answ == "y": console.print(f"[bold #00dcff][!] Cảm ơn bạn đã sử dụng tool của tôi[/bold #00dcff][bold yellow]《 Telegram: @{__CHANNEL_USERNAME__} 》[/bold blue]")
+                    if answ == "y": console.print(f"[bold #00dcff][!] Cảm ơn bạn đã sử dụng tool của tôi[/bold #00dcff][bold yellow]《 {__CHANNEL_USERNAME__} 》[/bold blue]")
                     else: continue
                 else:
                     console.print("[bold red]⚠ Thất bại ⚠[/bold red]")
@@ -378,7 +378,7 @@ if __name__ == "__main__":
                     console.print("[bold green]Đã thành công[/bold green]")
                     console.print("[bold green]==================================[/bold green]")
                     answ = Prompt.ask("[bold yellow][?] Bạn có muốn thoát không ?[/bold yellow]", choices=["y", "n"], default="n")
-                    if answ == "y": console.print(f"[bold #00dcff][!] Cảm ơn bạn đã sử dụng tool của tôi[/bold #00dcff][bold yellow]《 Telegram: @{__CHANNEL_USERNAME__} 》[/bold blue]")
+                    if answ == "y": console.print(f"[bold #00dcff][!] Cảm ơn bạn đã sử dụng tool của tôi[/bold #00dcff][bold yellow]《 {__CHANNEL_USERNAME__} 》[/bold blue]")
                     else: continue
                 else:
                     console.print("[bold red]⚠ Thất bại ⚠[/bold red]")
@@ -391,7 +391,7 @@ if __name__ == "__main__":
                     console.print("[bold green]Đã thành công.[/bold green]")
                     console.print("[bold green]==================================[/bold green]")
                     answ = Prompt.ask("[bold yellow][?] Bạn có muốn thoát không ?[/bold yellow]", choices=["y", "n"], default="n")
-                    if answ == "y": console.print(f"[bold #00dcff][!] Cảm ơn bạn đã sử dụng tool của tôi[/bold #00dcff][bold yellow]《 Telegram: @{__CHANNEL_USERNAME__} 》[/bold blue]")
+                    if answ == "y": console.print(f"[bold #00dcff][!] Cảm ơn bạn đã sử dụng tool của tôi[/bold #00dcff][bold yellow]《 {__CHANNEL_USERNAME__} 》[/bold blue]")
                     else: continue
                 else:
                     console.print("[bold red]⚠ Thất bại ⚠[/bold red]")
@@ -404,7 +404,7 @@ if __name__ == "__main__":
                     console.print("[bold green]Đã thành công.[/bold green]")
                     console.print("[bold green]==================================[/bold green]")
                     answ = Prompt.ask("[bold yellow][?] Bạn có muốn thoát không ?[/bold yellow]", choices=["y", "n"], default="n")
-                    if answ == "y": console.print(f"[bold #00dcff][!] Cảm ơn bạn đã sử dụng tool của tôi[/bold #00dcff][bold yellow]《 Telegram: @{__CHANNEL_USERNAME__} 》[/bold blue]")
+                    if answ == "y": console.print(f"[bold #00dcff][!] Cảm ơn bạn đã sử dụng tool của tôi[/bold #00dcff][bold yellow]《 {__CHANNEL_USERNAME__} 》[/bold blue]")
                     else: continue
                 else:
                     console.print("[bold red]⚠ Thất bại ⚠[/bold red]")
@@ -417,7 +417,7 @@ if __name__ == "__main__":
                     console.print("[bold green]Thành công.[/bold green]")
                     console.print("[bold green]==================================[/bold green]")
                     answ = Prompt.ask("[bold yellow][?] Bạn có muốn thoát không ?[/bold yellow]", choices=["y", "n"], default="n")
-                    if answ == "y": console.print(f"[bold #00dcff][!] Cảm ơn bạn đã sử dụng tool của tôi[/bold #00dcff][bold yellow]《 Telegram: @{__CHANNEL_USERNAME__} 》[/bold yellow]")
+                    if answ == "y": console.print(f"[bold #00dcff][!] Cảm ơn bạn đã sử dụng tool của tôi[/bold #00dcff][bold yellow]《 {__CHANNEL_USERNAME__} 》[/bold yellow]")
                     else: continue
                 else:
                     console.print("[bold red]⚠ Thất bại ⚠[/bold red]")
@@ -430,7 +430,7 @@ if __name__ == "__main__":
                     console.print("[bold green]Đã thành công.[/bold green]")
                     console.print("[bold green]==================================[/bold green]")
                     answ = Prompt.ask("[bold yellow][?] Bạn có muốn thoát không ?[/bold yellow]", choices=["y", "n"], default="n")
-                    if answ == "y": console.print(f"[bold #00dcff][!] Cảm ơn bạn đã sử dụng tool của tôi[/bold #00dcff][bold yellow]《 Telegram: @{__CHANNEL_USERNAME__} 》[/bold yellow]")
+                    if answ == "y": console.print(f"[bold #00dcff][!] Cảm ơn bạn đã sử dụng tool của tôi[/bold #00dcff][bold yellow]《 {__CHANNEL_USERNAME__} 》[/bold yellow]")
                     else: continue
                 else:
                     console.print("[bold red]⚠ Thất bại ⚠[/bold red]")
@@ -443,7 +443,7 @@ if __name__ == "__main__":
                     console.print("[bold green]Đã thành công.[/bold green]")
                     console.print("[bold green]==================================[/bold green]")
                     answ = Prompt.ask("[bold yellow][?] Bạn có muốn thoát không ?[/bold yellow]", choices=["y", "n"], default="n")
-                    if answ == "y": console.print(f"[bold #00dcff][!] Cảm ơn bạn đã sử dụng tool của tôi[/bold #00dcff][bold yellow]《 Telegram: @{__CHANNEL_USERNAME__} 》[/bold yellow]")
+                    if answ == "y": console.print(f"[bold #00dcff][!] Cảm ơn bạn đã sử dụng tool của tôi[/bold #00dcff][bold yellow]《 {__CHANNEL_USERNAME__} 》[/bold yellow]")
                     else: continue
                 else:
                     console.print("[bold red]⚠ Thất bại ⚠[/bold red]")
@@ -456,7 +456,7 @@ if __name__ == "__main__":
                     console.print("[bold green]Đã Thành công.[/bold green]")
                     console.print("[bold green]==================================[/bold green]")
                     answ = Prompt.ask("[bold yellow][?] Bạn có muốn thoát không ?[/bold yellow]", choices=["y", "n"], default="n")
-                    if answ == "y": console.print(f"[bold #00dcff][!] Cảm ơn bạn đã sử dụng tool của tôi[/bold #00dcff][bold yellow]《 Telegram: @{__CHANNEL_USERNAME__} 》[/bold yellow]")
+                    if answ == "y": console.print(f"[bold #00dcff][!] Cảm ơn bạn đã sử dụng tool của tôi[/bold #00dcff][bold yellow]《 {__CHANNEL_USERNAME__} 》[/bold yellow]")
                     else: continue
                 else:
                     console.print("[bold red]⚠ Thất bại ⚠[/bold red]")
@@ -467,12 +467,12 @@ if __name__ == "__main__":
                 console.print("[bold yellow][!] Chỉnh sửa số cuộc đua bạn thắng.[/bold yellow]")
                 amount = IntPrompt.ask("[bold yellow][?] số lượng[/bold yellow]")
                 console.print("[bold green][%] Đang thay đổi dữ liệu của bạn[/bold green]: ", end=None)
-                if amount > 0 and amount <= 999:
+                if amount > 0 and amount <= 99999:
                     if cpm.set_player_wins(amount):
                         console.print("[bold green]Đã thành công.[/bold green]")
                         console.print("[bold green]==================================[/bold green]")
                         answ = Prompt.ask("[bold yellow][?] Bạn có muốn thoát không ?[/bold yellow]", choices=["y", "n"], default="n")
-                        if answ == "y": console.print(f"[bold #00dcff][!] Cảm ơn bạn đã sử dụng tool của tôi[/bold #00dcff][bold yellow]《 Telegram: @{__CHANNEL_USERNAME__} 》[/bold yellow]")
+                        if answ == "y": console.print(f"[bold #00dcff][!] Cảm ơn bạn đã sử dụng tool của tôi[/bold #00dcff][bold yellow]《 {__CHANNEL_USERNAME__} 》[/bold yellow]")
                         else: continue
                     else:
                         console.print("[bold red]⚠ Thất bại ⚠[/bold red]")
@@ -488,12 +488,12 @@ if __name__ == "__main__":
                 console.print("[bold yellow][!] Chỉnh sửa số cuộc đua bạn thua[/bold yellow]")
                 amount = IntPrompt.ask("[bold yellow][?] Số lượng[/bold yellow]")
                 console.print("[bold green][%] Đang thay đổi dữ liệu của bạn[/bold green]: ", end=None)
-                if amount > 0 and amount <= 999:
+                if amount > 0 and amount <= 99999:
                     if cpm.set_player_loses(amount):
                         console.print("[bold green]Đã thành công.[/bold green]")
                         console.print("[bold green]==================================[/bold green]")
                         answ = Prompt.ask("[bold yellow][?] Bạn có muốn thoát không ?[/bold yellow]", choices=["y", "n"], default="n")
-                        if answ == "y": console.print(f"[bold #00dcff][!] Cảm ơn bạn đã sử dụng tool của tôi[/bold #00dcff][bold yellow]《 Telegram: @{__CHANNEL_USERNAME__} 》[/bold yellow]")
+                        if answ == "y": console.print(f"[bold #00dcff][!] Cảm ơn bạn đã sử dụng tool của tôi[/bold #00dcff][bold yellow]《 {__CHANNEL_USERNAME__} 》[/bold yellow]")
                         else: continue
                     else:
                         console.print("[bold red]⚠ Thất bại ⚠[/bold red]")
@@ -514,7 +514,7 @@ if __name__ == "__main__":
                     console.print("[bold green]Đã thành công.[/bold green]")
                     console.print("[bold green]==================================[/bold green]")
                     answ = Prompt.ask("[bold yellow][?] Bạn có muốn thoát không ?[/bold yellow]", choices=["y", "n"], default="n")
-                    if answ == "y": console.print(f"[bold #00dcff][!] Cảm ơn bạn đã sử dụng tool của tôi[/bold #00dcff][bold yellow]《 Telegram: @{__CHANNEL_USERNAME__} 》[/bold yellow]")
+                    if answ == "y": console.print(f"[bold #00dcff][!] Cảm ơn bạn đã sử dụng tool của tôi[/bold #00dcff][bold yellow]《 {__CHANNEL_USERNAME__} 》[/bold yellow]")
                     else: continue
                 else:
                     console.print("[bold red]⚠ Thất bại ⚠[/bold red]")
